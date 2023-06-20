@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #08080D;
+}
+
+section {
+    width: 387px;
+    height: 307px;
+    background-image: linear-gradient(0deg, #141420, #181826);
+    border-radius: 25px;
+    padding: 45px 5px 45px 35px;
+}
+
+#container #image {
+    background-color: #292942;
+    display: inline;
+    padding: 14px 14px 13px;
+    border-radius: 50%;
+}
+
+#container h1 {
+    margin-top: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+#container p {
+    color: rgba(255, 255, 255, 0.507);
+    margin-top: 13px;
+    line-height: 25px;
+}
+
+#container input {
+    padding: 14px 20px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    margin: 20px 20px 0px 0px;
+    background-color: #292942;
+    border: none;
+    transition: 300ms;
+    color: rgba(255, 255, 255, 0.507);
+}
+
+#container input:hover {
+    background-color: #FC7614;
+    transition: 800ms;
+}
+
+#container button {
+    background-color: #FC7614;
+    color: white;
+    width: calc(100% - 30px);
+    margin-top: 30px;
+    padding: 14px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+#container button:hover {
+    background-color: white;
+    color: #FC7614;
+    transition: 800ms;
+}
+
+/* Segunda pagina */
+#secondPage {
+    text-align: center;
+    padding: 45px 35px 45px 35px;
+    width: calc(387px - 30px);
+}
+
+#secondPage img {
+    margin: 0px auto 30px;
+    display: block;
+}
+
+#secondPage h2 {
+    font-size: 15px;
+    background-color: #292942;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #FC7614;
+    font-weight: 100;
+}
+
+#secondPage h1 {
+    color: rgba(255, 255, 255, 0.897);
+    margin: 25px 0px 15px;
+}
+
+#secondPage p {
+    color: rgba(255, 255, 255, 0.507);
+}
